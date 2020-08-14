@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Practice</title>
+    <link rel="stylesheet" href="assets/css/myStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" id="bootstrap-css"
+    />
+    <link
+      rel="icon"
+      href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico"
+    />
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/4.0/examples/album/"
+    />
+    
+    <link
+      href="https://getbootstrap.com/docs/4.0/examples/album/album.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/open-iconic/font/css/open-iconic-foundation.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-default bg_topbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand have-any-question" href="#"
+            >Have any question?</a
+          >
+        </div>
+        <div
+          class="nav navbar-nav navbar-right have-any-question"
+          style="margin-top: 14px !important;"
+        >
+          <img src="assets/images/mail.png" alt="" />
+          <a href="#" class="contact">contact@mail.com</a>
+          <img src="assets/images/phone.png" alt="" />
+          <a href="#" class="contact">+080 0444 333 444</a>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="navbar navbar-default bg_navbar bg_primary"
+      style="margin-top: 0px !important;"
+    >
+      <div class="container">
+        <div class="navbar-header">
+          <img
+            class="navbar-brand have-any-question"
+            src="assets/images/Layer 48.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="nav navbar-nav navbar-right have-any-question menu_item"
+          style="margin-top: 14px !important;"
+        >
+          <a href="#" class="font_primary menu_padding"
+            >About</a
+          >
+          <a href="#" class="font_primary menu_padding">Features</a>
+          <a href="#" class="font_primary menu_padding">Project</a>
+          <a href="#" class="font_primary menu_padding">Pages</a>
+          <a href="#" class="font_primary menu_padding">Contact</a>
+          <img src="assets/images/search.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Carousel -->
+        <div
+          id="carousel-example-generic"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel-example-generic"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/images/slider_1.png" alt="First slide" />
+              <!-- Static Header -->
+              <div class="we-do hidden-xs">
+                <div class="col-md-12 txt-left">
+                  <h2>
+                    <span
+                      >We do big things<br />
+                      with big ideas</span
+                    >
+                  </h2>
+                  <br />
+                  <h3 class="talk-to">
+                    <span
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Lorem ipsum dolor sit amet, consectetur adipiscing
+                    </span>
+                  </h3>
+                  <br />
+                  <form action="/action_page.php">
+                    <input
+                      class="bg-btn-slider explore-now"
+                      type="submit"
+                      value="Explore now"
+                    />
+                  </form>
+                </div>
+              </div>
+              <!-- /header-text -->
+            </div>
+            <div class="item">
+              <img src="assets/images/slider_2.jpg" alt="Second slide" />
+              <!-- Static Header -->
+              <div class="we-do hidden-xs">
+                <div class="col-md-12 txt-left">
+                  <h2>
+                    <span
+                      >We do big things<br />
+                      with big ideas</span
+                    >
+                  </h2>
+                  <br />
+                  <h3 class="talk-to">
+                    <span
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      .</span
+                    >
+                  </h3>
+                  <br />
+                  <form action="/action_page.php">
+                    <input
+                      class="bg-btn-slider explore-now"
+                      type="submit"
+                      value="Explore now"
+                    />
+                  </form>
+                </div>
+              </div>
+              <!-- /header-text -->
+            </div>
+            <div class="item">
+              <img src="assets/images/slider_3.webp" alt="Third slide" />
+              <!-- Static Header -->
+              <div class="we-do hidden-xs">
+                <div class="col-md-12 txt-left">
+                  <h2>
+                    <span
+                      >We do big things <br />
+                      with big ideas</span
+                    >
+                  </h2>
+                  <br />
+                  <h3 class="talk-to">
+                    <span
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Lorem ipsum dolor sit amet, consectetur.
+                      </span
+                    >
+                  </h3>
+                  <br />
+
+                  <form action="/action_page.php">
+                    <input
+                      class="bg-btn-slider explore-now"
+                      type="submit"
+                      value="Explore now"
+                    />
+                  </form>
+                </div>
+              </div>
+              <!-- /header-text -->
+            </div>
+          </div>
+          <!-- Controls -->
+          <a
+            class="left carousel-control"
+            href="#carousel-example-generic"
+            data-slide="prev"
+          >
+            <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+          </a>
+          <a
+            class="right carousel-control"
+            href="#carousel-example-generic"
+            data-slide="next"
+          >
+            <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+          </a>
+        </div>
+        <!-- /carousel -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row after-nav">
+        <div>
+          <h1 class="after-nav-txt">
+            Consulting And Estimate For Your Project,<span
+              style="color: black; font: italic;"
+              ><a>Contact Us Today</a></span
+            >
+          </h1>
+        </div>
+        <div>
+          <form class="" action="/action_page.php">
+            <input
+              class="after-nav-btn get-a-quote color_primary after-nav-margin-left"
+              type="submit"
+              value="Get a Quote"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron h1">our services</h1>
+        <p class="lead text-muted our-services-content">
+          Something short and leading about the collection below—its contents,
+          the creator, etc. Make it short and sweet, but not too short so folks
+          don't simply skip over it entirely.Make it short and sweet, but not too short so folks
+          don't simply.
+        </p>
+       
+      </div>
+    </section>
+    <section class="bg-our-service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 box-shadow">
+            <img src="assets/images/card_1.jpg" height="200px" width="100%" class="" alt="..." />
+            <h1 class="our-services-header">Renovation</h1>
+            <p class="font_primary">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content.
+            </p>
+           
+                <a href="#" class="have-any-question menu_padding"
+                 >READ MORE</a
+                >
+              
+          </div>
+          <div class="col-md-4 box-shadow">
+            <img src="assets/images/card_2.jpg" height="200px" width="100%"  class="" alt="..." />
+            <h1 class="our-services-header">Consulting</h1>
+            <p class="font_primary">
+              This card has supporting text below as a natural lead-in to
+              additional content.This content is a little bit longer.
+            </p>
+            
+            <a href="#" class="have-any-question menu_padding"
+                 >READ MORE</a
+                >
+          </div>
+          <div class="col-md-4 box-shadow">
+            <img src="assets/images/card_3.png" height="200px" width="100%" class="" alt="..." />
+            <h1 class=" our-services-header">Smart housing</h1>
+            <p class="font_primary">
+              This card has supporting text below as a natural lead-in to
+              additional content.This content is a little bit longer.
+            </p>
+            
+                <a href="#" class="have-any-question menu_padding"
+                 >READ MORE</a
+                >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-after-service">
+      <div class="row">
+        <div class="col-sm-6" style="padding-left: 0px;">
+          <!--  ++++++++++embeded video++++++++ -->
+          
+              <button type="button" class="bmd-modalButton" data-toggle="modal" data-bmdSrc="https://www.youtube.com/embed/_-i-vUc5XVk" data-bmdWidth="640" data-bmdHeight="480" data-target="#myModal"  data-bmdVideoFullscreen="true"><i class="fa fa-play-circle-o" style="font-size:48px; color: white "></i></button>
+              <!-- <iframe width="853" height="480" src="https://www.youtube.com/embed/ML3n1c0FHDI?list=PLbpi6ZahtOH7CkYdkWCsAVMcX1hoYy3TP" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    
+              <!--Video modal -->
+              <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content bmd-modalContent">
+    
+                    <div class="modal-body">
+                      
+                      <div class="close-button">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      </div>
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <iframe class="embed-responsive-item" frameborder="0"></iframe>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+                      <!--Video modal -->
+                   <!--  ++++++++ embeded video ++++++++++ -->
+          <img src="assets/images/after-service.jpg" height="600px" width="100%"  class="" alt="..." />
+
+        </div>
+          <div class="col-sm-6" style="padding-left: 0px;">
+            <div class="row col">
+                <div class="col-sm-3" style="background-color:rgb(248, 248, 248); padding-left: 40px; padding-top: 100px; height: 200px;">
+                  <img src="assets/images/Shape 1.png" height="80px" width="60%"  class="" alt="..." />
+                </div>
+                <div class="col-sm-9" style="background-color:rgb(248, 248, 248); height: 200px;">
+                  <div class="panel panel-default" style="border:none ; box-shadow: none; background-color:rgb(248, 248, 248);">
+                    <div class="panel-heading our-services-header" style="border:none ; box-shadow: none; background-color:rgb(248, 248, 248); padding-top: 50px;">
+                      <h3>General Builder</h3>
+                    </div>
+                    <div class="panel-body font_primary">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur?
+                       Consequatur, perferendis nostrum vero quam doloremque necessitatibus explicabo possimus non nulla.
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row col">
+              <div class="col-sm-3" style="background-color:rgb(248, 248, 248); padding-left: 40px; padding-top: 90px; height: 200px;">
+                <img src="assets/images/Shape_2.png" height="60px" width="60%"  class="" alt="..." />
+              </div>
+              <div class="col-sm-9" style="background-color:rgb(248, 248, 248); height: 200px;">
+                <div class="panel panel-default" style="border:none ; box-shadow: none; background-color:rgb(248, 248, 248);">
+                  <div class="panel-heading our-services-header" style="border:none ; box-shadow: none; background-color:rgb(248, 248, 248); padding-top: 40px;">
+                    <h3>General Builder</h3>
+                  </div>
+                  <div class="panel-body font_primary">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur?
+                     Consequatur, perferendis nostrum vero quam doloremque necessitatibus explicabo possimus non nulla.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row col">
+              <div class="col-sm-3" style="background-color:rgb(248, 248, 248); padding-left: 40px; padding-top: 90px; height: 200px;">
+                <img src="assets/images/Shape_3.png" height="60px" width="60%"  class="" alt="..." />
+              </div>
+              <div class="col-sm-9" style="background-color:rgb(248, 248, 248); height: 200px;">
+                <div class="panel panel-default" style="border:none ; box-shadow: none; background-color:rgb(248, 248, 248);">
+                  <div class="panel-heading our-services-header" style="border:none ; box-shadow: none; background-color:rgb(248, 248, 248); padding-top: 40px;">
+                    <h3>General Builder</h3>
+                  </div>
+                  <div class="panel-body font_primary">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur?
+                     Consequatur, perferendis nostrum vero quam doloremque necessitatibus explicabo possimus non nulla.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="jumbotron text-center bg-featured">
+      <div class="container">
+        <h1 class="jumbotron h1">Featured Works</h1>
+        <p class="lead text-muted our-services-content">
+          Something short and leading about the collection below—its contents,
+          the creator, etc. Make it short and sweet, but not too short so folks
+          don't simply skip over it entirely.Make it short and sweet, but not too short so folks
+          don't simply.
+        </p>
+        <p class="feature-option" id="myBtnContainer">
+          <a  class="font_primary menu_padding" onclick="filterSelection('all')">All</a
+          >
+          <a  class="font_primary menu_padding" onclick="filterSelection('nature')">Health care</a
+            >
+          <a  class="font_primary menu_padding" onclick="filterSelection('cars')">Office</a
+          >
+          <a  class="font_primary menu_padding" onclick="filterSelection('people')">Intorior Design</a
+            >
+        </p>
+      </div>
+    </section>
+   
+    <section class="bg-filter-gallery">
+      <div class="container-fluid">
+      <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <!-- <div class="column nature effect"> -->
+            <div class="column nature">
+            <div class="content">
+              <img src="assets/images/work_1.jpg" alt="Mountains" style="width:100%; height: 200px;">
+              <h4 >Mountains</h4>
+              <!-- <p class="overlay">Lorem ipsum dolor..</p> -->
+              <p >Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column people">
+            <div class="content">
+            <img src="assets/images/work_2.jpg" alt="Lights" style="width:100%; height: 200px;">
+              <h4>Lights</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column nature">
+            <div class="content">
+            <img src="assets/images/work_3.jpg" alt="Nature" style="width:100%; height: 200px;">
+              <h4>Forest</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          
+          <div class="column cars">
+            <div class="content">
+              <img src="assets/images/work_4.jpg" alt="Car" style="width:100%; height: 200px;">
+              <h4>Retro</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column cars">
+            <div class="content">
+            <img src="assets/images/work_5.jpg" alt="Car" style="width:100%; height: 200px;">
+              <h4>Fast</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column cars">
+            <div class="content">
+            <img src="assets/images/work_6.jpg" alt="Car" style="width:100%; height: 200px;">
+              <h4>Classic</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+        </div>  
+        <!-- END GRID -->
+      </div>
+    </section>
+    <section class="jumbotron text-center bg-feedback">
+      <div class="container">
+        <h1 class="jumbotron h1">Customer Feedback</h1>
+        <p class="lead text-muted our-services-content">
+          Something short and leading about the collection below—its contents,
+          the creator, etc. Make it short and sweet, but not too short so folks
+          don't simply skip over it entirely.Make it short and sweet, but not too short so folks
+          don't simply.
+        </p>
+      </div>
+    </section>
+    <section class="bg-feedback-carousel" >
+      <!-- doble carosal goes here -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Carousel -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin: auto;width: 80%;">
+            <ol class="carousel-indicators" style="bottom: -25px;">
+              <li
+                data-target="#carousel-example-generic"
+                data-slide-to="0"
+                class="active" style="background-color: #ffab1e !important"
+              ></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1" style="background-color: #dadada !important"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2" style="background-color: #dadada !important"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+
+                <div class="col-md-6" style="padding: 20px">
+                  <div class="col-md-3" style="background-color: #ff5074; height: 130px"></div>
+                  <div class="col-md-9" style="background-color: #f3f3f3; padding: 20px;height: 130px">
+                    <p class="font_primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur.Consequatur, perferendis nostrum vero</p>
+                    <span class="font_primary"><b>HOUSEBUILDERS - CEO</b></span>
+                  </div>
+                  
+                </div>
+                
+                <div class="col-md-6" style="padding: 20px">
+                  <div class="col-md-3" style="background-color: #ff5074; height: 130px"></div>
+                  <div class="col-md-9" style="background-color: #f3f3f3; padding: 20px;height: 130px">
+                    <p class="font_primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur.Consequatur, perferendis nostrum vero</p>
+                    <span class="font_primary"><b>HOUSEBUILDERS - CEO</b></span>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="item">
+                
+                <div class="col-md-6" style="padding: 20px">
+                  <div class="col-md-3" style="background-color:teal; height: 130px"></div>
+                  <div class="col-md-9" style="background-color: #f3f3f3; padding: 20px;height: 130px">
+                    <p class="font_primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur.Consequatur, perferendis nostrum vero</p>
+                    <span class="font_primary"><b>HOUSEBUILDERS - CEO</b></span>
+                  </div>
+                  
+                </div>
+                
+                <div class="col-md-6" style="padding: 20px">
+                  <div class="col-md-3" style="background-color: teal; height: 130px"></div>
+                  <div class="col-md-9" style="background-color: #f3f3f3; padding: 20px;height: 130px">
+                    <p class="font_primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur.Consequatur, perferendis nostrum vero</p>
+                    <span class="font_primary"><b>HOUSEBUILDERS - CEO</b></span>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-6" style="padding: 20px">
+                  <div class="col-md-3" style="background-color:yellow; height: 130px"></div>
+                  <div class="col-md-9" style="background-color: #f3f3f3; padding: 20px;height: 130px">
+                    <p class="font_primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur.Consequatur, perferendis nostrum vero</p>
+                    <span class="font_primary"><b>HOUSEBUILDERS - CEO</b></span>
+                  </div>
+                  
+                </div>
+                
+                <div class="col-md-6" style="padding: 20px">
+                  <div class="col-md-3" style="background-color: yellow; height: 130px"></div>
+                  <div class="col-md-9" style="background-color: #f3f3f3; padding: 20px;height: 130px">
+                    <p class="font_primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos harum consectetur.Consequatur, perferendis nostrum vero</p>
+                    <span class="font_primary"><b>HOUSEBUILDERS - CEO</b></span>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!-- /carousel -->
+        </div>
+      </div>
+      <!-- doble carosal goes here -->
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3" style="padding-left: 40px;">
+            <img src="assets/images/feedback_1.png" width="70%" alt="">
+          </div>
+          <div class="col-sm-3" >
+            <img src="assets/images/feedback_2.png" width="70%" alt="">
+          </div>
+          <div class="col-sm-3" >
+            <img src="assets/images/feedback_3.png" width="70%" alt="">
+          </div>
+          <div class="col-sm-3" >
+            <img src="assets/images/feedback_4.png" width="70%" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="counter">
+      <div class="container-fluid bg-counter">
+          <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="employees">
+                    <p class="employee-p">Employee</p>
+                      <p class="counter-count">879</p>
+                  </div>
+              </div>
+  
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="customer">
+                      <p class="customer-p">Customer</p>
+                      <p class="counter-count">954</p>
+                  </div>
+              </div>
+  
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="design">
+                      <p class="design-p">Design</p>
+                      <p class="counter-count">1050</p>
+                  </div>
+              </div>
+  
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="order">
+                      <p class="order-p">Orders</p>
+                      <p class="counter-count">652</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <section>
+    <div class="container-fluid">
+ 
+      <div class="row">
+        <div class="col-sm-12" style="background-color:rgb(249, 249, 249); height:200px">
+          <div style="padding-left:80px; padding-right:80px; margin-top: 50px; ">
+            <div class="panel panel-default" style="border:none; ">
+           
+            <div class="panel-body" style="height: 100px; border-left:5px solid rgb(250, 183, 2); ">
+              <h2 style="font-size: 24px; font-family: Roboto;">Lorem ipsum dolor sit amet consectetur, adipisicing <br>
+                <elit class="span text-muted" style="font-size: 14px;">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </elit>
+              </h2>
+              <form action="/action_page.php">
+                <input
+                  class="bg-btn-slider contact-us"
+                  type="submit"
+                  value="Contact Us Today!"
+                />
+               
+              </form>
+              
+            </div>
+          </div>
+        </div>
+       
+      </div>
+     
+    </div>
+    
+  </section>
+  <section class="jumbotron text-center bg-news">
+    <div class="container">
+      <h1 class="jumbotron h1" >Our News</h1>
+      <p class="lead text-muted our-services-content">
+        Something short and leading about the collection below—its contents,
+        the creator, etc. Make it short and sweet, but not too short so folks
+        don't simply skip over it entirely.Make it short and sweet, but not too short so folks
+        don't simply.
+      </p>
+    </div>
+  </section>
+  <section class="bg-our-news">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 ">
+          <img src="assets/images/card_1.jpg" height="200px" width="100%" class="" alt="..." />
+          <h2 class="our-services-header">Renovation with supporting text below?</h2>
+          <img src="assets/images/  12 december 2018.png" width="150px" height="20px" alt="">
+          <p class="font_primary">
+            This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content.
+          </p>
+         
+              <a href="#" class="have-any-question menu_padding"
+               >READ MORE</a
+              >
+            
+        </div>
+        <div class="col-md-4 ">
+          <img src="assets/images/card_2.jpg" height="200px" width="100%"  class="" alt="..." />
+          <h2 class="our-services-header">Consulting with supporting text below?</h2>
+          <img src="assets/images/  12 december 2018.png" width="150px" height="20px" alt="">
+          <p class="font_primary">
+            This card has supporting text below as a natural lead-in to
+            additional content.This content is a little bit longer.
+          </p>
+          
+          <a href="#" class="have-any-question menu_padding"
+               >READ MORE</a
+              >
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/card_3.png" height="200px" width="100%" class="" alt="..." />
+          <h2 class=" our-services-header">Smart housing with supporting text below</h2>
+          <img src="assets/images/  12 december 2018.png" width="150px" height="20px" alt="">
+          <p class="font_primary">
+            This card has supporting text below as a natural lead-in to
+            additional content.This content is a little bit longer.
+          </p>
+          
+              <a href="#" class="have-any-question menu_padding"
+               >READ MORE</a
+              >
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-footer">
+    <div class="container">
+  
+      <div class="row" style="padding-top:50px;">
+        <div class="col-sm-3" style=" height: 300px;">
+          <h5 class="foot-headline">Recent Posts</h5>
+          
+          <h2 class="line-footer"><span class="glyphicon glyphicon-menu-right" style="color: white; padding-top: 0px;" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-menu-right" style="color: white;" aria-hidden="true"></span>
+            Lorem ipsum dolor sit amet consectetur .
+          </h2>
+          <img src="assets/images/line.png" style="padding-top: 45px;" alt="">
+          <h2 class="line-footer"><span class="glyphicon glyphicon-menu-right" style="color: white; padding-top: 0px;" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-menu-right" style="color: white;" aria-hidden="true"></span>
+            Lorem ipsum dolor sit amet consectetur .
+          </h2>
+          <img src="assets/images/line.png" style="padding-top: 45px;" alt="">
+          <h2 class="line-footer"><span class="glyphicon glyphicon-menu-right" style="color: white; padding-top: 0px;" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-menu-right" style="color: white;" aria-hidden="true"></span>
+            Lorem ipsum dolor sit amet consectetur .
+          </h2>
+          <img src="assets/images/line.png" style="padding-top: 45px;" alt="">
+          <h2 class="line-footer"><span class="glyphicon glyphicon-menu-right" style="color: white; padding-top: 0px;" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-menu-right" style="color: white;" aria-hidden="true"></span>
+            Lorem ipsum dolor sit amet consectetur .
+          </h2>
+         
+          <img src="assets/images/line.png" style="padding-top: 45px;" alt="">
+          <h2 class="line-footer"><span class="glyphicon glyphicon-menu-right" style="color: white;" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-menu-right" style="color: white;" aria-hidden="true"></span>
+            Lorem ipsum dolor sit amet consectetur .
+          </h2>
+        </div>
+        <div class="col-sm-3" style="height: 300px;">
+          <h5 class="foot-headline">Recent News</h5>
+          <div class="row">
+            <div class="col-sm-4" style="height:100px;">
+              <img src="assets/images/image_thumb_1.png" style="width:100%; height: 80px;  padding-top: 20px;" alt="">
+            </div>
+            <div class="col-sm-8" style="height:100px; padding-left:-10px;">
+              <h2 class="line-footer" >Lorem ipsum dolor sit amet consectetur adipisicing elit <br> 
+               <small style="color: white;">Aug-14-2020</small>
+              </h2>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-4" style="height:100px;">
+              <img src="assets/images/image_thumb_4.png" style="width:100%; height: 80px; padding-top: 20px;" alt="">
+            </div>
+            <div class="col-sm-8" style="height:100px;">
+              <h2 class="line-footer" >Lorem ipsum dolor sit amet consectetur adipisicing elit <br> 
+                <small style="color: white;">Aug-14-2020</small>
+              </h2>
+            </div>
+            
+        </div>
+          
+          
+        </div>
+        <div class="col-sm-3" style=" height: 300px;">
+          <h5 class="foot-headline" style="padding-bottom:10px;">Contact Info</h5>
+          <p class="line-footer"><i class="fa fa-envelope" ></i>
+            contact@gmail.com</p>
+          
+          <img src="assets/images/line.png" style="padding-top: 45px;" alt="">
+          <p class="line-footer"><i class="fa fa-phone" style="margin-right: 5px"></i> P: 777 888 99 <br>
+             <span style="margin-left: 20px;">F: 333 444 22</span></p>  
+          <img src="assets/images/line.png" style="padding-top: 45px;" alt="">
+          <p class="line-footer"><i class="fa fa-map-marker" style="margin-right: 5px"></i>567 Lalmaita, Dhanmondi<br>
+            <span style="margin-left: 20px;">Dhaka, Bangladesh</span></p>
+          <img src="assets/images/line.png" style="padding-top: 45px;" alt="">
+           
+            <br><br>
+            <div class="row">
+              <div class="col-sm-1">
+                <i class="fa fa-facebook-square" style="color:white;"></i>
+              </div>
+  
+              <div class="col-sm-1">
+                <i class="fa fa-skype" style="color:white;"></i>
+              </div>
+  
+              <div class="col-sm-1">
+                <i class="fa fa-pinterest-p" style="color:white;"></i>
+              </div>
+            </div>
+
+        </div>  
+        <div class="col-sm-3" style="height: 300px;">
+          <h5 class="foot-headline">Mailing List</h5>
+          <p class="line-footer">Enter your email address  for our mailing list to keep yourself updated.</p>
+          <br><br><br>
+          <form action="/action_page.php" class="input-btn">
+            <input class="input-domain"  type="text" placeholder="Email address" style="background-color: white;" >
+            <button class="domain-search-btn" style="background-color:rgb(250, 183, 2);" type="submit">DONE</button>
+          </form>
+          
+           <h1 class="text-muted" style="font-size: 11px;">We respect your privacy.</h1>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+ 
+    <section class="bg-footer-bottom">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class=" menu_padding" style="color:wheat!important;"> &copy; Copyright 2020 || Farhana Afrin</a>
+        </div>
+        <div
+          class="nav navbar-nav navbar-right have-any-question menu_item"
+          style="margin-top: 14px !important;"
+        >
+          <a href="#" class="menu_padding" style="color:wheat!important;"
+            >Home</a
+          >
+          <a href="#" class=" menu_padding" style="color:wheat!important;">About</a>
+          <a href="#" class=" menu_padding" style="color:wheat!important;">Services</a>
+          <a href="#" class=" menu_padding" style="color:wheat!important;">Blog</a>
+          <a href="#" class=" menu_padding" style="color:wheat!important;">Contact</a>
+         
+        </div>
+      </div>
+
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+      integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+      crossorigin="anonymous"
+    ></script>
+    <!-- for filter Gallery -->
+    <script>
+      filterSelection("all")
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+      
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+      }
+      
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);     
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+      
+      
+      // Add active class to the current button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+      </script>
+      <!-- Script for video modal -->
+<script type="text/javascript">
+  (function($) {
+  
+  $.fn.bmdIframe = function( options ) {
+      var self = this;
+      var settings = $.extend({
+          classBtn: '.bmd-modalButton',
+          defaultW: 640,
+          defaultH: 360
+      }, options );
+    
+      $(settings.classBtn).on('click', function(e) {
+        var allowFullscreen = $(this).attr('data-bmdVideoFullscreen') || false;
+        
+        var dataVideo = {
+          'src': $(this).attr('data-bmdSrc'),
+          'height': $(this).attr('data-bmdHeight') || settings.defaultH,
+          'width': $(this).attr('data-bmdWidth') || settings.defaultW
+        };
+        
+        if ( allowFullscreen ) dataVideo.allowfullscreen = "";
+        
+        // stampiamo i nostri dati nell'iframe
+        $(self).find("iframe").attr(dataVideo);
+      });
+    
+      this.on('hidden.bs.modal', function(){
+        $(this).find('iframe').html("").attr("src", "");
+      });
+    
+      return this;
+  };
+
+    })(jQuery);
+
+
+
+
+    jQuery(document).ready(function(){
+      jQuery("#myModal").bmdIframe();
+    });
+</script>
+<script type="text/javascript">
+  $('.counter-count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+</script>
+  </body>
+</html>
